@@ -3,7 +3,7 @@ This project was for my Udacity course "Intro to Programming".
 
 These were the project requirements: 
 
-1.Create a player subclass that plays randomly
+1. Create a player subclass that plays randomly
 The starter Player class always plays 'rock'. That's not a very good strategy! Create a subclass called RandomPlayer that chooses its move at random. When you call the move method on a RandomPlayer object, it should return one of 'rock', 'paper', or 'scissors' at random.
 
 Change the code so it plays a game between two RandomPlayer objects.
@@ -24,8 +24,6 @@ At the end of each game round, the Game class calls the learn method on each pla
 Create a ReflectPlayer class that remembers what move the opponent played last round, and plays that move this round. (In other words, if you play 'paper' on the first round, a ReflectPlayer will play 'paper' on the second round.)
 
 Create a CyclePlayer class that remembers what move it played last round, and cycles through the different moves. (If it played 'rock' this round, it should play 'paper' in the next round.)
-
-(Something to think about: What should these classes do on the first move?)
 
 Test each of these player classes versus HumanPlayer.
 
